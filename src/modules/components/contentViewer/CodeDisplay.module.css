@@ -1,0 +1,10 @@
+.codeContainer {
+    font-family: 'Courier New', Courier, monospace;    
+    padding: 10px;     
+    overflow: hidden;    
+  }
+  
+  .codeContent {    
+    /* white-space: pre;  Preserve whitespace and line breaks -> Think use rpe to preview code browse  examples */
+  }
+  

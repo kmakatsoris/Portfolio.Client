@@ -1,0 +1,239 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;  
+}
+
+/* [LEFT CONTAINER */
+.leftContainer {
+    flex: 0 0 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+} 
+
+/* [TITLE & DESCRITPION CONTAINER */
+.titleAndDescriptionContainer {    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 38%;
+    left: 4%;
+  }
+
+.titleContainer {
+    width: 100%;    
+}
+
+.title0 {
+    font-family: system-ui;
+    font-size: 14px;
+}
+
+.title1 {
+  font-family: system-ui;
+  font-size: 50px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #eb986c, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 7px 0px 0px 0px;
+}
+
+.descriptionContainer {
+    width: 70%;    
+    margin: 10px 0px 0px 0px;
+}
+
+.description {
+    margin: 5% 0px 0px 0px;
+    color: #1a1a1a;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+/* [PARTICLES] */
+.particlesContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;    
+  }
+  
+  .particleContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+  }
+
+  .particleSubContainer {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right bottom, rgb(255 255 255), rgb(220 29 29 / 15%));
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+  .particleTextContainer {
+    font-size: 1vw;
+    color: black;
+    font-weight: 100;
+    font-family: system-ui;;
+    line-height: 1.6;
+    width: 77%;
+  }
+  
+  .particle0Container {
+    width: 20vw;
+    height: 20vw;
+    background: aliceblue;
+    position: absolute;
+    top: 100%;
+    left: 20%;   
+    border-radius: 7%;
+    overflow: hidden; 
+  }
+  
+  .particle1Container {
+    width: 20vw;
+    height: 20vw;
+    background: aliceblue;
+    position: absolute;
+    top: 120%;
+    left: 44%;   
+    border-radius: 7%;
+    overflow: hidden;  
+  }
+  
+  .particle2Container {
+    width: 20vw;
+    height: 20vw;
+    background: aliceblue;
+    position: absolute;
+    top: calc(100% + 30vw);
+    left: 30%;   
+    border-radius: 7%;
+    overflow: hidden;  
+  }
+  
+  .particle3Container {
+    width: 20vw;
+    height: 20vw;
+    background: aliceblue;
+    position: absolute;
+    top: calc(130% + 30vw);
+    left: 57%;    
+    border-radius: 7%;
+    overflow: hidden; 
+  }
+
+/* [RIGHT CONTAINER */
+.rightContainer {
+    flex: 0 0 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContentContainer {
+  position: relative;
+  top: 5%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transform: skewY(6deg) translateX(13%);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0px -4% 0px 0px;
+  opacity: 30%;    
+}
+
+.profileImg {    
+    max-width: 131%;
+    width: auto;    
+    max-height: 90%;
+    height: auto;
+    object-fit: cover;
+    margin: -4% 0px 0px 28%;
+    opacity: 90%;
+}
+
+.particleRenderContainer {
+
+}
+.particleRenderTitleAndTextContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.particleRenderTitle {
+  font-size: 76%;
+  font-family: system-ui;
+  font-weight: 600;
+  background: linear-gradient(90deg, #313131, #71ffde);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+
+.particleRenderLine {
+  width: 1000px;
+  height: 2px;
+  background-color: black;
+  transform: rotate(110deg);
+}
+
+.particleRenderText {
+  font-size: 76%;
+  font-family: system-ui;
+  font-weight: 400;  
+}
+
+.particleRenderIconContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.particleRenderIcon {
+  width: 45px;
+  position: relative;
+  top: 12px;
+  cursor: pointer;
+}
+.particleRenderIcon:hover {
+  width: 50px;
+}

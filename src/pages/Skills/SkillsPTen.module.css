@@ -1,0 +1,23 @@
+.container {    
+    width: 100%;
+    height: 100%;    
+}
+
+.htmlContentSmallImg0 {
+    width: 100%;    
+    height: 100%;
+    cursor: pointer;
+}
+
+.htmlContentSmallImg1 {
+    width: 88px;
+    height: 88px;
+    cursor: pointer;
+}
+
+.htmlContentSmallImg2 {
+    width: 253px;   
+    height: 100%; 
+    margin: 0px 0px -19px -62px;
+    cursor: pointer;
+}

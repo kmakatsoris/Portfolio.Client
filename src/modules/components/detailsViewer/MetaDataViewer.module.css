@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.infoImageContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoImage {
+    width: 65%;
+    opacity: 50%;
+    filter: blur(3px);
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.5));
+}
+
+.contentContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.noMetaDataContainer {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

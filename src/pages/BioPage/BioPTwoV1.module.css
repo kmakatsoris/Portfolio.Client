@@ -1,0 +1,438 @@
+.container {
+    width: 100vw;
+    height: calc(100vh - 64px);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.subContainer {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftContainer,
+.rightContainer {
+    flex: 1 1 20%;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pieceContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.mainContainer {
+    flex: 1 1 60%;
+    width: 100%;
+    height: 100%;
+}
+
+.textContainerUpToPuzzle {
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    font-size: 45px;
+    color: #7794bb;
+    font-weight: 600;
+    font-family: system-ui;
+}
+
+.textContainerDownToPuzzle {
+    position: relative;
+    top: 90%;
+    left: 23%;
+    font-size: 45px;
+    color: #7794bb;
+    font-weight: 600;
+    font-family: system-ui;
+}
+
+.textContainerDownToPuzzleNumber {
+    color: #eb986c;
+    font-weight: 900;
+    font-family: system-ui;
+    font-size: 65px;
+}
+
+/* PUZZLE PIECES \START */
+/* --------------------------------- */
+.puzzlePieceGlassPreview {
+    width: 253px;
+    height: 177px;
+    margin: 0px 0px 49px 65px;
+}
+
+/* PUZZLE PIECES 1. */
+.puzzlePiece1 {
+    position: absolute;
+    width: 17%;
+    height: 19.8%;
+    top: 10%;
+    left: 25%;
+}
+
+.puzzlePiece1LeftContainer {
+    position: absolute;
+    top: 0px;
+    left: -138px;
+    width: 150px;
+    height: 120px;
+    transform: rotateZ(336deg);
+    cursor: pointer;
+}
+
+.puzzlePiece1LeftContainer:hover {
+    width: 170px;
+    height: 140px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+/* PUZZLE PIECES 2. */
+.puzzlePiece2 {
+    position: absolute;
+    width: 13%;
+    height: 26.5%;
+    top: 10%;
+    left: 37%;
+}
+
+.puzzlePiece2LeftContainer {
+    position: absolute;
+    top: -22px;
+    left: 37px;
+    width: 107px;
+    height: 120px;
+    cursor: pointer;
+    transform: rotateZ(7deg);
+}
+
+.puzzlePiece2LeftContainer:hover {
+    width: 127px;
+    height: 140px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+/* PUZZLE PIECES 3. */
+.puzzlePiece3 {
+    position: absolute;
+    width: 21%;
+    height: 19.5%;
+    top: 10.5%;
+    left: 45%;
+}
+
+.puzzlePiece3LeftContainer {
+    position: absolute;
+    top: -8px;
+    left: -119px;
+    width: 200px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.puzzlePiece3LeftContainer:hover {
+    width: 220px;
+    height: 140px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+
+
+/* PUZZLE PIECES 4. */
+.puzzlePiece4 {
+    position: absolute;
+    width: 13%;
+    height: 26.5%;
+    top: 9.9%;
+    left: 61%;
+}
+
+.puzzlePiece4LeftContainer {
+    position: absolute;
+    top: -5px;
+    left: 34px;
+    width: 118px;
+    height: 138px;
+    cursor: pointer;
+    transform: rotateZ(25deg);
+}
+
+.puzzlePiece4LeftContainer:hover {
+    width: 138px;
+    height: 158px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+
+/* PUZZLE PIECES 5. */
+.puzzlePiece5 {
+    position: absolute;
+    width: 13.3%;
+    height: 31%;
+    top: 22%;
+    left: 24.9%;
+}
+
+.puzzlePiece5LeftContainer {
+    position: absolute;
+    top: -39px;
+    left: -103px;
+    width: 128px;
+    height: 179px;
+    cursor: pointer;
+    transform: rotateZ(354deg);
+}
+
+.puzzlePiece5LeftContainer:hover {
+    width: 148px;
+    height: 199px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+/* PUZZLE PIECES 6. */
+.puzzlePiece6 {
+    position: absolute;
+    width: 21%;
+    height: 19%;
+    top: 28%;
+    left: 33%;
+}
+
+.puzzlePiece6LeftContainer {
+    position: absolute;
+    top: 24px;
+    left: -13px;
+    width: 246px;
+    height: 133px;
+    cursor: pointer;
+}
+
+.puzzlePiece6LeftContainer:hover {
+    width: 266px;
+    height: 153px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+/* PUZZLE PIECES 7. */
+.puzzlePiece7 {
+    position: absolute;
+    width: 13.2%;
+    height: 30.77%;
+    top: 22.4%;
+    left: 48.88%;
+}
+
+.puzzlePiece7RightContainer {
+    position: absolute;
+    top: -127px;
+    left: -78px;
+    width: 133px;
+    height: 165px;
+    cursor: pointer;
+    transform: rotateZ(341deg);
+}
+
+.puzzlePiece7RightContainer:hover {
+    width: 153px;
+    height: 185px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+/* PUZZLE PIECES 8. */
+.puzzlePiece8 {
+    position: absolute;
+    width: 17.6%;
+    height: 19.6%;
+    top: 28.1%;
+    left: 56.7%;
+}
+
+.puzzlePiece8RightContainer {
+    position: absolute;
+    top: -116px;
+    left: 53px;
+    width: 160px;
+    height: 147px;
+    cursor: pointer;
+}
+
+.puzzlePiece8RightContainer:hover {
+    width: 180px;
+    height: 167px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+
+
+/* PUZZLE PIECES 9. */
+.puzzlePiece9 {
+    position: absolute;
+    width: 16.8%;
+    height: 21%;
+    top: 45.15%;
+    left: 25.3%;
+}
+
+.puzzlePiece9RightContainer {
+    position: absolute;
+    top: -98px;
+    left: -44px;
+    width: 162px;
+    height: 120px;
+    cursor: pointer;
+    transform: rotateZ(3deg);
+}
+
+.puzzlePiece9RightContainer:hover {
+    width: 182px;
+    height: 140px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+
+
+/* PUZZLE PIECES 10. */
+.puzzlePiece10 {
+    position: absolute;
+    width: 12.7%;
+    height: 27.1%;
+    top: 38.9%;
+    left: 37.2%;
+}
+
+.puzzlePiece10RightContainer {
+    position: absolute;
+    top: -59px;
+    width: 127px;
+    height: 152px;
+    cursor: pointer;
+}
+
+.puzzlePiece10RightContainer:hover {
+    width: 147px;
+    height: 172px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+/* PUZZLE PIECES 11. */
+.puzzlePiece11 {
+    position: absolute;
+    width: 20.8%;
+    height: 22.6%;
+    top: 44.3%;
+    left: 45%;
+}
+
+.puzzlePiece11RightContainer {
+    position: absolute;
+    left: 80px;
+    top: -218px;
+    width: 204px;
+    height: 152px;
+    cursor: pointer;
+    transform: rotate(18deg);
+}
+
+.puzzlePiece11RightContainer:hover {
+    width: 224px;
+    height: 172px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+
+/* PUZZLE PIECES 12. */
+.puzzlePiece12 {
+    position: absolute;
+    width: 13.8%;
+    height: 27.2%;
+    top: 39%;
+    left: 60.6%;
+}
+
+.puzzlePiece12RightContainer {
+    position: absolute;
+    left: -19px;
+    top: -83px;
+    width: 162px;
+    height: 152px;
+    cursor: pointer;
+    transform: rotate(18deg);
+}
+
+.puzzlePiece12RightContainer:hover {
+    width: 182px;
+    height: 172px;
+    filter: drop-shadow(-9px 13px 20px rgba(119, 148, 187, 1));
+}
+
+/* PUZZLE PIECES \END */
+/* --------------------------------- */
+
+
+.renderPiece_Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.renderPiece_LeftContainer {
+    flex: 1 1 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.renderPiece_RightContainer {
+    flex: 1 1 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.renderPiece_RightUpContainer {
+    margin: 0px 0px 18px 0px;
+    color: #eb986c;
+    font-family: system-ui;
+    font-size: 25px;
+}
+
+.renderPiece_RightDownContainer {
+    font-family: system-ui;
+    font-size: 15px;
+}

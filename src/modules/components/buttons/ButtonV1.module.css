@@ -1,0 +1,83 @@
+.container {
+    position: relative;    
+  }
+
+.textContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 11%;
+    bottom: 17%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);    
+    z-index: 2;
+    cursor: pointer;
+} 
+
+.text0 {
+    margin: 0px 0px 0px 4px;
+}
+
+.text0::after {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position the underline absolutely */
+    left: 0; /* Start from the left */
+    bottom: -2px; /* Position below the text */
+    width: 0; /* Start with zero width */
+    height: 5px; /* Set the height of the underline */
+    background-color: #eb986c; /* Set the color of the underline */
+    transition: width 0.5s ease; /* Transition width for smooth animation */
+  }
+    
+  .text0:hover::after {
+    animation: underlineAnimation 0.5s ease forwards; /* Apply the underline animation */
+  }
+
+
+.effectContainer {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+  
+
+/* Effects */ 
+.animatedBorderDefault {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+.borderPathDefault {
+    fill: transparent; /* Make the border path transparent */
+    stroke: black; /* Set the border color */
+    stroke-width: 2; /* Set the border width */
+    stroke-dasharray: 400; /* Set the length of the path */
+    stroke-dashoffset: 400; /* Hide the path initially */
+    animation: draw 1.5s linear forwards; /* Animation to draw the border */
+  }
+  
+  
+@keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+@keyframes underlineAnimation {
+    0% {
+        width: 0;
+        left: 0;
+      }
+    100% {
+        width: 100%;
+        left: 0;
+      }
+  }

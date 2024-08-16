@@ -1,0 +1,164 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-style: dashed;
+  border-width: 5px;
+  border-color: #dfdfdf;
+  flex-wrap: nowrap;
+}
+
+.hashtagContainer {
+  width: 81%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 0px 0px 4px 0px;
+  color: #356098;
+  font-family: system-ui;
+  font-size: 10px;
+}
+
+.subContainer {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: #7691b5;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 19px 20px 20px 10px rgb(53 96 152 / 15%);
+  border-radius: 10px;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  animation: slideFromRight 1.5s ease-in-out forwards;
+}
+
+.graphicContainerLeft {
+  flex: 0 0 40%;
+  width: 100%;
+  height: 90%;
+  position: relative;
+  top: 5%;
+  background: white;
+  border-radius: 5px;
+}
+
+.leftImg {
+  width: 800px;
+  height: 600px;
+}
+
+.hoverLeftImg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: #356098;
+  font-size: 29px;
+  font-family: system-ui;
+  transition: font-size 0.5s ease, background-color 0.5s ease;
+  animation: colorChange 6s infinite, fontSizeIncrease .8s ease-in-out forwards;
+}
+
+.contactContainer {
+  flex: 0 0 5%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactIconsContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 19px;
+}
+
+.contactIcon {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.graphicContainerRight {
+  flex: 0 0 40%;
+  width: 100%;
+  height: 90%;
+  position: relative;
+  top: 5%;
+  background: white;
+  border-radius: 5px;
+}
+
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fontSizeIncrease {
+  from {
+    opacity: 0;
+    font-size: 10px;
+  }
+
+  to {
+    opacity: 1;
+    font-size: 29px;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #FF6347;
+  }
+
+  25% {
+    background-color: #1E90FF;
+  }
+
+  50% {
+    background-color: #FFD700;
+  }
+
+  75% {
+    background-color: #32CD32;
+  }
+
+  100% {
+    background-color: #FF6347;
+  }
+}

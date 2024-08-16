@@ -1,0 +1,61 @@
+.container {
+  width: 100vw;
+  height: 90vh;
+  overflow-y: hidden;
+}
+
+.viewItem {
+  width: 70%;
+  height: 30%;
+  margin: 0px 0px 0px -4%;
+  animation: renderViewAnimation 3s ease-in-out;
+}
+
+.iconDetail {
+  width: 90%;
+  height: 90%;
+  display: flex;    
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: -7% 0px 0px 0px;
+  font-family: system-ui;
+  font-style: italic;  
+  padding: 10px;
+  box-sizing: border-box;
+  word-wrap: break-word; /* Break long words */
+  word-break: break-word;
+  overflow: hidden;
+}
+
+.contactIconsContainer {
+  flex: 0 0 12%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 19px;
+}
+
+.contactIcon {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+
+@keyframes renderViewAnimation {
+  0% {
+    opacity: 30%;
+    filter: blur(1px);
+  }
+  100% {
+    opacity: 100%;
+  }
+}

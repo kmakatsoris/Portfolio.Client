@@ -1,0 +1,75 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;  
+}
+
+.lastNameContainer, .firstNameContainer, .labelContainer, .contactAndLanguagesContainer{
+  display: flex;
+  width: 100%;
+  margin: 0px 0% 0px 30%;
+  font-family: system-ui;  
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.lastNameContainer, .firstNameContainer, .labelContainer{
+  font-size: 200%;
+}
+.labelContainer {
+  font-size: 130%;
+}
+.contactAndLanguagesContainer {
+  margin: 5% 0% 0px 30%;
+}
+
+.leftContainer {
+  flex: 1 1 45%;
+  width: 100%;
+  height: 129%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 20%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+} 
+.leftBackgroundContainer {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  height: 200%;
+  background-color: #7794bb;
+  overflow: hidden;
+}
+
+.rightContainer {
+  flex: 1 1 60%;
+  width: 100%;
+  height: 219%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 60%;
+}
+
+.educationContainer {   
+  margin: -2% 0px 0px -2.5%; 
+}

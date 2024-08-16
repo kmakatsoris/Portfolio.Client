@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;    
+}
+
+.subContainer {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    top: 14%;
+}
+
+.backgroundImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textsContainer {
+    
+}
+
+.text1Container {
+    width: 100%;
+    height: 100%;
+    font-family: system-ui;
+    font-size: 68%;
+    font-weight: 300;
+    margin: -10% 0px -2% 0px;
+    color: black;
+}
+
+.text2Container {
+    font-family: system-ui;
+    font-size: 68%;
+    font-weight: 300;
+    margin: 3% 0px 11% 0px;
+    color: black;
+}
+
+.textFocus {
+    color: #7794bb;
+    font-weight: 600;
+    margin: 0px 5px 0px 5px;
+}

@@ -1,0 +1,33 @@
+.container {
+    width: 100%;        
+    height: calc(65vh - 70px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;               
+  }
+
+.listOfReviewsContainer {
+    width: 85%;
+    height: 100%;  
+}
+
+.addButton {
+  width: 45%;
+  cursor: pointer;
+  animation: focusTextAnimation 1.5s forwards;
+}
+
+/* [ANIMATION SECTION] */
+@keyframes focusTextAnimation {
+  from {    
+    opacity: 0;
+    filter: blur(5px);
+  }
+  to {    
+    opacity: 100%;
+  }
+}

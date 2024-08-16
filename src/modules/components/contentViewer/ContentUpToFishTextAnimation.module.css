@@ -1,0 +1,82 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.contentContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+ 
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* [FIX] */
+.contentBackGround {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
+
+
+/* [TEXTS] */
+.textsContainer {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+.text {
+    position: absolute;
+    font-size: 24px;
+    color: #333;
+    white-space: nowrap;
+    transform-origin: left top;
+    opacity: 1;
+    animation: moveForward 3s ease-in-out infinite;
+}
+
+.textFocus {
+    position: absolute;
+    font-size: 24px;    
+    white-space: nowrap;
+    transform-origin: left top;
+    color: #ff7743;
+    opacity: 1;    
+    animation: moveForward 3s ease-in-out infinite;
+    /* animation: pulse 2.3s infinite; */ 
+}
+
+@keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+@keyframes moveForward {
+    0% { transform: translateX(0%); opacity: 0; }
+    50% { transform: translateX(50%); opacity: 1; }
+    100% { transform: translateX(100%); opacity: 0; }
+}

@@ -1,0 +1,47 @@
+.slideLeftcontainer {
+    animation: slideFromLeft 1.5s ease-in-out forwards;
+}
+
+.slideRightcontainer {
+    animation: slideFromRight 1.5s ease-in-out forwards;
+}
+
+.slideUpcontainer {
+    animation: slideUp 1.5s ease-in-out forwards;
+}
+
+@keyframes slideFromRight {
+    from {
+        transform: translateX(var(--transitionDistance, 100%));
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(var(--transitionDistance, -100%));
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(var(--transitionDistance, 100%));
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}

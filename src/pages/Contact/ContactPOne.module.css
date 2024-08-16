@@ -1,0 +1,247 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom-style: dashed;
+  border-width: 5px;
+  border-color: #dfdfdf;
+}
+
+.hashtagContainer {
+  width: 81%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 0px 0px -2% 0px;
+  color: #356098;
+  font-family: system-ui;
+  font-size: 10px;
+}
+
+.containerBackground {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  animation: slideFromRight 1.5s ease-in-out forwards;
+}
+
+.subContainer {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: #7691b5;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 19px 20px 20px 10px rgb(53 96 152 / 15%);
+  border-radius: 10px;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.quoteAndContactIconsContainer {
+  flex: 0 0 50%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteContainer {
+  flex: 0 0 70%;
+  width: 100%;
+  height: 100%;
+}
+
+.quote {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-style: italic;
+  font-family: system-ui;
+  color: white;
+  margin: -6% 0px 0px 19%;
+  animation: showUp 3s ease-in forwards
+}
+
+.contactIconsContainer {
+  flex: 0 0 12%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 19px;
+}
+
+.contactIcon {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.graphicContainer {
+  flex: 0 0 50%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: white;
+  position: relative;
+}
+
+.backgroundImgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.backgroundImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -7%;
+  left: 8%;
+  transform: rotate(350deg);
+}
+
+.leftCloudImage {
+  width: 120%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+}
+
+.rightCloudImage {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: -65%;
+}
+
+.instagramObjectIcon {
+  position: absolute;
+  width: 115px;
+  top: 1%;
+  left: 80%;
+  transform: rotate(16deg);
+  cursor: pointer;
+  transition: width 0.5s ease;
+}
+
+.instagramObjectIcon:hover {
+  width: 140px;
+}
+
+.messengerObjectIcon {
+  position: absolute;
+  width: 85px;
+  top: 45%;
+  left: 5%;
+  transform: rotate(16deg);
+  cursor: pointer;
+  transition: width 0.5s ease;
+}
+
+.messengerObjectIcon:hover {
+  width: 110px;
+}
+
+.linkedInObjectIcon {
+  position: absolute;
+  width: 115px;
+  top: 5%;
+  left: 15%;
+  transform: rotate(16deg);
+  cursor: pointer;
+  transition: width 0.5s ease;
+}
+
+.linkedInObjectIcon:hover {
+  width: 140px;
+}
+
+.twitterObjectIcon {
+  position: absolute;
+  width: 115px;
+  top: 35%;
+  left: 85%;
+  transform: rotate(16deg);
+  cursor: pointer;
+  transition: width 0.5s ease;
+}
+
+.twitterObjectIcon:hover {
+  width: 140px;
+}
+
+@keyframes underlineAnimation {
+  0% {
+    width: 0;
+    left: 0;
+  }
+
+  100% {
+    width: 70px;
+    left: 0;
+  }
+}
+
+@keyframes showUp {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,21 @@
+.container {    
+    border-radius: 10px;
+    width: 100%; /* Make the image fill the width of the parent container */
+    height: 100%; /* Make the image fill the height of the parent container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    animation: renderingAnimation 2s ease-in-out; /* Add animation */
+  }
+
+/* Define Animations Section */
+@keyframes renderingAnimation {
+    0% {
+        opacity: 10%;
+        filter: blur(5px);
+    }
+    50% {
+      opacity: 60%;
+    }
+    100% {
+        opacity: 100%;
+    }
+  }

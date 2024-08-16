@@ -1,0 +1,134 @@
+.container {
+    width: 100vw;
+    height: 100vh;    
+}
+
+.headerSection {
+    width: 100vw;
+    height: 66px;
+    z-index: 2;
+}
+
+/*Under header Actions lamp & Rope*/
+.underHeaderActionsContainer {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.underHeaderActionsContainerRopeActive {
+    position: absolute;
+    top: 66px;
+    right: 50px;
+}
+.underHeaderActionsContainerRopeDeactive {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.underHeaderActionsContainerLampActive {
+    position: absolute;
+    right: 95px;
+    top: 66px;    
+}
+.underHeaderActionsContainerLampDeactive {
+    position: absolute;
+    right: 95px;
+    top: 0px;
+}
+.lamp {
+    position: relative;
+    width: 50px;
+    z-index: 2;
+}
+.hide {
+    position: relative;
+    width: 52px;
+    z-index: 2;
+    left: 44%;
+}
+.cvIcon {
+
+}
+.contactIcon {
+    
+}
+
+/*Footer Actions Section*/
+.footerActions {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0px 15px 20px 0px;
+    z-index: 2;
+}
+
+.footerAction {
+    overflow: hidden;
+}
+.footerAction img{
+  width: 40px;
+  margin: 6px 15px 6px 15px;
+  cursor: pointer;    
+  transition: transform 0.3s; /* Add a smooth transition on hover */
+}
+.footerAction:hover{
+  border-bottom: 3px solid gold;  
+  transform: scale(1.1); /* Increase size on hover */    
+}
+
+
+.sideActions {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px 20px 0px 0px;
+    z-index: 2;
+}
+
+.cycle {
+    width: 2vh;
+    height: 2vh;
+    border-radius: 50%;
+    background-color: #f3f3f3;    
+    margin: 0px 15px 10px 0px;
+    cursor: pointer;
+    opacity: 75%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.cycle:hover {
+    background-color: #ffd49f;
+}
+.activeCycle {
+    width: 2vh;
+    height: 2vh;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #00000059;
+    margin: 0px 13px 10px 0px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ffd49f;
+}
+
+
+.label {
+    font-family: system-ui;
+    font-size: 11px;
+    position: relative;
+    top: -8px;
+    left: 20px;
+}

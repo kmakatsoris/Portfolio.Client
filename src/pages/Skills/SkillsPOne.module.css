@@ -1,0 +1,286 @@
+.container {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #dfdfdf;
+  box-shadow: 20px 4px 8px 3px rgb(53 96 152 / 15%);
+}
+
+/* [INTRODUCTION CONTAINER] */
+.introductionContainer {
+  flex: 0 0 35%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titleContainer {
+  flex: 0 0 30%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 75px;
+  font-weight: 300;
+  font-family: system-ui;
+  margin: 2% 0% 0px 0%;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  /* Required for pseudo-elements */
+  position: absolute;
+  /* Position the underline absolutely */
+  left: 0;
+  /* Start from the left */
+  bottom: -2px;
+  /* Position below the text */
+  width: 0;
+  /* Start with zero width */
+  height: 2px;
+  /* Set the height of the underline */
+  background-color: #eb986c;
+  /* Set the color of the underline */
+  transition: width 0.5s ease;
+  /* Transition width for smooth animation */
+}
+
+.title:hover::after {
+  animation: underlineAnimation 0.5s ease forwards;
+  /* Apply the underline animation */
+}
+
+.textContainer {
+  flex: 0 0 45%;
+  width: 80%;
+  height: 100%;
+  margin: 0px 0px 0px -20%;
+}
+
+.text {
+  font-size: 18px;
+  font-family: system-ui;
+  margin: 5% 0% 0px 3%;
+  color: #818181;
+  line-height: 1.5;
+}
+
+.btnsContainer {
+  flex: 0 0 25%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: -10% 0px 0px 0px;
+}
+
+.btn1Container {
+  cursor: pointer;
+}
+
+.btn2Container {
+  cursor: pointer;
+}
+
+/* [PREVIEW CONTAINER] */
+.previewsContainer {
+  flex: 0 0 65%;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2% -5% 0px 0px;
+}
+
+.previewRow0 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.previewRow1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 10% 0px 0px;
+}
+
+.previewRow2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.previewColumn0 {
+  flex: 0 0 30%;
+  width: 100%;
+  height: 100%;
+}
+
+.previewColumn1 {
+  flex: 0 0 30%;
+  width: 100%;
+  height: 100%;
+}
+
+.previewColumn2 {
+  flex: 0 0 30%;
+  width: 100%;
+  height: 100%;
+}
+
+.backgroundImg {
+  width: 56%;
+  position: absolute;
+  top: -1%;
+  left: 20%;
+  cursor: pointer;
+  transition: width 0.5s ease, top 0.5s ease, left 0.5s ease;
+}
+.backgroundImg1 {
+  width: 150px;
+  position: absolute;
+  top: 5%;
+  left: 29%;
+  cursor: pointer;
+  transition: width 0.5s ease, top 0.5s ease, left 0.5s ease;
+}
+.backgroundImg1:hover {
+  width: 200px;
+  top: 0%;
+  left: 29%;
+}
+.backgroundImg2 {
+  width: 280px;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  cursor: pointer;
+  transition: width 0.5s ease, top 0.5s ease, left 0.5s ease;
+}
+.backgroundImg2:hover {
+  width: 350px;
+  top: -10%;
+  left: 15%;
+}
+
+.backgroundImgPreview {
+  width: 225px;
+  position: absolute;
+  top: -60%;
+  left: -50%;
+  cursor: pointer;
+  transition: width 0.5s ease, top 0.5s ease, left 0.5s ease;
+}
+
+.backgroundImg:hover {
+  width: 70%;
+  top: -10%;
+  left: 10%;
+}
+
+.renderSkill_Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.renderSkill_LeftContainer {
+  flex: 1 1 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.renderSkill_RightContainer {
+  flex: 1 1 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.renderSkill_RightUpContainer {
+  margin: 0px 0px 18px 0px;
+  color: #eb986c;
+  font-family: system-ui;
+  font-size: 25px;
+}
+
+.renderSkill_RightDownContainer {
+  font-family: system-ui;
+  font-size: 15px;
+}
+
+
+
+/* [ANIMATIONS] */
+@keyframes underlineAnimation {
+  0% {
+    width: 0;
+    left: 0;
+  }
+
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}

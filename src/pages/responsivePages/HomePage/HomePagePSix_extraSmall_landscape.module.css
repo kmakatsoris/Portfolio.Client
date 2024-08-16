@@ -1,0 +1,45 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;    
+}
+
+.subContainer {
+    width: 80%;
+    height: 80%;
+}
+
+.backgroundImg {
+    width: 100%;
+}
+
+.textsContainer {    
+}
+
+.text1Container {
+    font-family: system-ui;
+    font-size: 62%;
+    font-weight: 300;
+    margin: -2% 0px -1% 0px;
+    color: black;
+}
+
+.text2Container {
+    font-family: system-ui;
+    font-size: 62%;
+    font-weight: 300;
+    margin: 3% 0px 3% 0px;
+    color: black;
+}
+
+.textFocus {
+    color: #7794bb;
+    font-weight: 600;
+    margin: 0px 5px 0px 0px;
+}

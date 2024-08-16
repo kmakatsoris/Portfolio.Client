@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.subContainer {
+    background-color: bisque;
+    overflow: hidden;
+}

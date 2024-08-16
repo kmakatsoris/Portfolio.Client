@@ -1,0 +1,167 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;    
+}
+
+.titleAndDescriptionContainer {
+    flex: 0 0 30%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title0 {
+    font-family: system-ui;
+    font-size: 30px;
+}
+
+.title1 {
+    font-family: system-ui;
+    font-size: 30px;
+    font-weight: 600;
+    color: #eb986c;
+    margin: 7px 0px 0px 0px;
+}
+
+.descriptionContainer {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    font-family: system-ui;
+    font-size: 17px;
+}
+
+.subContainer {
+    flex: 0 0 70%;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: -10% 0px 0px 0px;
+}
+
+.floatingModulesContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.floatingItemContainer {
+    width: 100%;
+    height: 100%;
+    border: solid 3px transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #ff4900, #0174ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;      
+} 
+
+.floatingItem {
+    font-family: system-ui;
+    font-size: 20px;
+    color: #313131;
+    text-align: center; 
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.floatingItem:hover {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.underConstructionContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+} 
+
+.underConstructionItem {
+    width: 70%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 26px;
+    border-color: #d7d7d7;
+}
+
+.underConstructionItemNotificationContainer {
+    width: 150px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px -21px 0px;
+} 
+
+.underConstructionItemNotification {
+    font-family: system-ui;
+    font-size: 20px;
+    color: #ff7743;
+    opacity: 1;
+    animation: pulse 2.3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

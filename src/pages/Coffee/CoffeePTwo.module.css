@@ -1,0 +1,175 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+  .welcomeContainer {
+    flex: 0 0 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1.5% 0px 0px 0px;
+    position: relative;
+  }
+  
+  .welcomeMessage {
+    position: absolute;
+    left: 7.5%;
+  }
+
+  .welcomeMessageValue {
+    font-size: 135%;
+    font-family: system-ui;
+    color: #bdbdbd;
+  }
+  
+  .subContainer {
+    flex: 0 0 90%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+  }
+
+  .backgroundImgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .backgroundImgSubContainer {
+    width: 70%;
+    height: 94%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .backgroundImgValueContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .backgroundImg {
+    width: 70%;
+    height: 80vh;
+    border-radius: 2%;
+  }
+
+  .titleContainer {
+    width: 60%;
+    height: 100%;
+  }
+
+  .descriptionValueContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .descriptionValue0 {
+    width: 100%;
+    font-size: 100%;
+    font-family: system-ui;
+    color: #000000;
+    margin: 0px 0px 4% 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .descriptionValue1 {
+    width: 100%;
+    font-size: 100%;
+    font-family: system-ui;
+    color: #000000;
+    margin: 0px 0px 4% 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #7794bb;
+  }
+  .descriptionValue2 {
+    width: 100%;
+    font-size: 100%;
+    font-family: system-ui;
+    color: #000000;
+    margin: 0px 0px 4% 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .descriptionValue3 {
+    width: 100%;
+    font-size: 100%;
+    font-weight: 600;
+    font-family: system-ui;
+    color: #000000;
+    margin: 0px 0px 4% 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .btnsContainer {    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10% 0px 0px 0px;
+  }
+  
+.btn1Container {
+    cursor: pointer;
+    color: #7794bb;
+}

@@ -1,0 +1,168 @@
+.container {
+    width: 100vw;
+    height: calc(110vh);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;  
+}
+
+/* [Centric Component] */
+.centricComponentContainer {
+    width: 600px;
+    height: 70px;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.centricComponentSubContainer {
+    width: 620px;
+    height: 90px;
+    position: absolute;
+    top: -28%;
+    left: -11%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-top-right-radius: 27px;
+    border-bottom-left-radius: 27px; 
+    background: white;
+    box-shadow: 4px 20px 20px 5px rgb(119 148 187);    
+}
+
+.titleContainer {
+    width: 414px;
+    position: absolute;
+    top: 0%;
+    left: 8%;
+}
+
+.title0 {
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.title1 {
+    font-family: system-ui;
+    font-size: 25px;
+    font-weight: 600;
+    color: #7794bb;
+    margin: 7px 0px 0px 0px;
+}
+
+/* [Image Particles] */
+.particlesContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.particleContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.particle0Container {
+  width: 20vw;
+  height: 20vw;
+  background: aliceblue;
+  position: absolute;
+  top: 96%;
+  left: 20%;
+  z-index: 0;
+}
+
+.particle1Container {
+  width: 20vw;
+  height: 20vw;
+  background: aliceblue;
+  position: absolute;
+  top: 118%;
+  left: 44%;
+  z-index: 0;
+}
+
+.particle2Container {
+  width: 20vw;
+  height: 20vw;
+  background: aliceblue;
+  position: absolute;
+  top: calc(100% + 30vw);
+  left: 30%;
+  z-index: 0;
+}
+
+.particle3Container {
+  width: 20vw;
+  height: 20vw;
+  background: aliceblue;
+  position: absolute;
+  top: calc(130% + 30vw);
+  left: 57%;
+  z-index: 0;
+}
+
+/* [TEXTS] */
+.textsContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+.text {
+    position: absolute;
+    font-size: 24px;
+    color: #333;
+    white-space: nowrap;
+    transform-origin: left top;
+    opacity: 0;
+    animation: moveForward 3s ease-in-out infinite;
+}
+
+.textFocus {
+    position: absolute;
+    font-size: 24px;    
+    white-space: nowrap;
+    transform-origin: left top;
+    color: #ff7743;
+    opacity: 1;
+    opacity: 0;
+    animation: moveForward 3s ease-in-out infinite;
+    /* animation: pulse 2.3s infinite; */ 
+}
+
+@keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes moveForward {
+    0% { transform: translateX(0%); opacity: 0; }
+    50% { transform: translateX(50%); opacity: 1; }
+    100% { transform: translateX(100%); opacity: 0; }
+  }

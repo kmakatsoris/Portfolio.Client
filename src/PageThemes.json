@@ -1,0 +1,123 @@
+{
+    "Fill1": {
+      "comment": "Change smoothly the background color",
+      "backgroundColor": "#f0f0f0",
+      "backgroundImage": "linear-gradient(0deg, transparent 1%, #888 1%, #888 2%, transparent 2%), linear-gradient(90deg, transparent 1%, #888 1%, #888 2%, transparent 2%)",
+      "backgroundSize": "20px 20px"
+    },
+
+    "Linear1": {
+      "comment": "Linear gradient from white to pink to blue",
+      "backgroundImage": "linear-gradient(to right bottom, rgb(255, 255, 255), #fbbdfb, rgb(119, 148, 187))"
+    },
+    "Radial1": {
+      "comment": "Radial gradient from white to grey to blue",
+      "backgroundImage": "radial-gradient(circle, rgb(252, 247, 248), rgb(235, 239, 248), rgb(112 165 235 / 62%))"
+    },
+    "Linear2": {
+      "comment": "Linear gradient from blue to white",
+      "backgroundImage": "linear-gradient(to right bottom, #356098, rgb(255 255 255 / 39%), white)"
+    },
+    "Linear3": {
+      "comment": "Linear gradient from top to bottom and from blue to white",
+      "backgroundImage": "linear-gradient(to bottom, #7ba4d9, rgb(255 255 255 / 39%), white)"
+    },
+    "Linear4": {
+      "comment": "Linear gradient from Red to grey to blue",
+      "backgroundImage": "linear-gradient(to right bottom, rgb(255 119 119), #cb886463, rgb(79 154 255))"
+    },
+    "Linear5": {
+      "comment": "Linear gradient from Orange to grey to blue",
+      "backgroundImage": "linear-gradient(to right bottom, #eb986c91, #ebeff8, #fcf7f8, rgb(0 109 255 / 58%))"
+    },
+    "Radial2": {
+      "comment": "Radial gradient with cyan & purple (Adjust Position of Cyan and the Expansion)",
+      "backgroundImage": "radial-gradient(at 66% 0%, rgb(25, 255, 255) 9%, rgb(255, 107, 255))"
+    },
+    "Linear6": {
+      "comment": "Linear gradient from blue to Green to Orange (Adjust Rotation and Expansion)",
+      "backgroundImage": "linear-gradient(168deg, rgb(53, 96, 152), rgb(11 35 15) 91%, rgb(235, 152, 108))"
+    },
+    "Radial3": {
+      "comment": "Radial gradient from blue to white to blue (bottom to top)",
+      "backgroundImage": "radial-gradient(circle at bottom, #356098, white, #356098)"
+    },
+    "Linear7": {
+      "comment": "Linear gradient from purple to cyan (right to left)",
+      "backgroundImage": "linear-gradient(to left, purple, cyan)"
+    },
+    "Linear8": {
+      "comment": "Linear gradient from white to dark blue",
+      "backgroundImage": "linear-gradient(to bottom right, #ffffff, #0e2e45, #7794bb)"
+    },
+    "Radial4": {
+      "comment": "Radial gradient from red to yellow to green",
+      "backgroundImage": "radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 50%, rgba(0,128,0,1) 100%)"
+    },
+    "Linear9": {
+      "comment": "Repeating linear gradient from blue to white",
+      "backgroundImage": "repeating-linear-gradient(45deg, #00f, #00f 10px, #fff 10px, #fff 20px)"
+    },
+    "Linear10": {
+      "comment": "Linear gradient from yellow to orange to red",
+      "backgroundImage": "linear-gradient(to right, yellow, orange, red)"
+    },
+    "Radial5": {
+      "comment": "Radial gradient from white to black",
+      "backgroundImage": "radial-gradient(circle, white, black)"
+    },
+    "Radial6": {
+      "comment": "Repeating radial gradient from blue to green",
+      "backgroundImage": "repeating-radial-gradient(circle, blue, green 15%, blue 30%)"
+    },
+    "Linear11": {
+      "comment": "Linear gradient from green to pink",
+      "backgroundImage": "linear-gradient(to right, green, pink)"
+    },
+    "Linear12": {
+      "comment": "Linear gradient from purple to cyan",
+      "backgroundImage": "linear-gradient(to right, purple, cyan)"
+    },
+    "Radial7": {
+      "comment": "Radial gradient from pink to purple",
+      "backgroundImage": "radial-gradient(circle, pink, purple)"
+    },
+    "Linear13": {
+      "comment": "Repeating linear gradient from red to white",
+      "backgroundImage": "repeating-linear-gradient(to bottom, red, white 20%)"
+    },
+    "Radial8": {
+      "comment": "Radial gradient from blue to white to blue",
+      "backgroundImage": "radial-gradient(circle, blue, white, blue)"
+    },
+    "Linear14": {
+      "comment": "Linear gradient from red to yellow",
+      "backgroundImage": "linear-gradient(to bottom, red, yellow)"
+    },
+    "Radial9": {
+      "comment": "Radial gradient from purple to blue",
+      "backgroundImage": "radial-gradient(circle, purple, blue)"
+    },
+
+    "Pattern1": {
+        "comment": "Abstract pattern with overlapping circles",
+        "backgroundImage": "radial-gradient(circle at 20% 20%, #ff4f70, transparent 30%), radial-gradient(circle at 80% 80%, #4e54c8, transparent 30%)"
+    },
+    "Pattern2": {
+        "comment": "Geometric pattern with hexagons",
+        "backgroundImage": "linear-gradient(45deg, #3498db 25%, transparent 25%), linear-gradient(-45deg, #3498db 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #3498db 75%), linear-gradient(-45deg, transparent 75%, #3498db 75%), linear-gradient(to bottom, #ff4757, #2f3542)"
+    },
+    "Pattern3": {
+        "comment": "Artistic pattern with watercolor strokes",
+        "backgroundImage": "radial-gradient(circle at 30% 30%, #ff4757, transparent), radial-gradient(circle at 70% 70%, #2f3542, transparent), radial-gradient(circle at 90% 30%, #ff7e5f, transparent), radial-gradient(circle at 50% 80%, #ff5f6d, transparent)"
+    },
+    "Pattern4": {
+        "comment": "Abstract pattern with organic shapes",
+        "backgroundImage": "linear-gradient(to bottom, #6a89cc, #4a69bd, #1e3799)"
+    },
+    "Pattern5": {
+        "comment": "Artistic pattern with splattered paint",
+        "backgroundImage": "radial-gradient(circle, #ff5f6d 5%, transparent 5%), radial-gradient(circle, #ff1f93 5%, transparent 5%), radial-gradient(circle, #ff00d3 5%, transparent 5%), radial-gradient(circle, #ff00bf 5%, transparent 5%), radial-gradient(circle, #ff00a8 5%, transparent 5%)"
+    }    
+}
+  

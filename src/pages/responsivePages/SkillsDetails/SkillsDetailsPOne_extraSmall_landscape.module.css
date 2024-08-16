@@ -1,0 +1,89 @@
+.container {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;   
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #dfdfdf; 
+    box-shadow: 20px 4px 8px 3px rgb(53 96 152 / 15%);
+}
+
+.backgroundImgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundImg {
+    margin: 0% 0px 0px 0px;
+    width: 217px;
+    border-top-right-radius: 59px;
+    border-bottom-left-radius: 59px;
+}
+
+.contentContainer {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.plainContent {
+    margin: 20px 0px 0px -25%;
+    font-size: 65%;
+    font-family: system-ui;
+    font-weight: bolder;
+}
+
+.collaborationContent {
+    margin: 5px 0px 0px -25%;
+    font-size: 75%;
+    font-family: system-ui;
+    font-style: oblique;
+    color: #7794bb;
+} 
+
+.notificationContent {
+    margin: 5px 0px 0px -25%;
+    font-size: 83%;
+    font-family: system-ui;
+    font-weight: lighter;
+    color: #eb986c;
+}
+
+.btnsContainer {    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10% 0px 0px 0px;
+  }
+  
+.btn1Container {
+    cursor: pointer;
+    color: #7794bb;
+}
+
+.btn2Container {
+    cursor: pointer;
+    color: #eb986c;
+}

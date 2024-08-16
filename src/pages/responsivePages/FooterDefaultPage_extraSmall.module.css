@@ -1,0 +1,109 @@
+.container {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px -5px 10px 1px rgb(0 0 0 / 10%);  
+  background-color: #7794bb;
+  overflow: hidden;
+  }
+
+  .subContainer {
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  .graphicContainer {    
+    flex: 1 1 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    bottom: 38%;
+    right: 6%;
+    opacity: 20%;
+  }
+  
+  .contentContainer {    
+    flex: 1 1 28%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+  
+  .contentSection {    
+    width: 100%;
+    height: 100%;    
+  }
+  
+  .contentSetionTitle {    
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: system-ui;
+    margin: 0px 0px 2% 0%;
+    border-bottom: solid;
+    margin: 3% 0px 3% 0px;
+  }
+  
+  .contentSetionInfo {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contentSetionInfoKeysAndValues {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .contentSetionInfoKey {
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: system-ui;
+    margin: 0px 0px 15px 0%;
+  }
+
+  .lineVertical {
+    width: 10px;
+    height: 21%;
+    border-radius: 10px;
+    margin: 0px 2% 0px 0px;
+    background-color: #fff;
+  }
+  
+  .contentSetionInfoValue {    
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: system-ui;
+    margin: 0px 0px 14.5px 0%;
+  }
+  

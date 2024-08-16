@@ -1,0 +1,13 @@
+.inputContainer {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+
+.charactersContainer {
+    position: relative;
+    left: calc(100%);
+    top: 0%;
+    color: #000000;
+}

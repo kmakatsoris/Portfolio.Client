@@ -1,0 +1,98 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.subContainer {    
+    position: relative;
+    left: 0%; 
+    top: -8%; 
+    width: 100%;
+    height: 100%;
+}
+
+.textContainer {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-size: 400%;
+    font-family: system-ui;    
+    background: linear-gradient(90deg, #313131, #71ffde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;    
+    animation: adjustPortfolioTxt 1s ease-out;
+}
+
+.modesContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: -74%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mode0Container {
+    position: relative;  
+    top: 0;
+    left: 0;    
+    animation: mode0ContainerAnimation .8s ease-out;
+}
+.mode1Container {
+    position: relative;
+    top: 0;
+    left: 0;    
+    animation: mode1ContainerAnimation .8s ease-out;
+}
+
+/* [ANIMATION SECTION] */
+@keyframes adjustPortfolioTxt {
+    0% {
+        opacity: 100%; 
+        font-size: 1000%;       
+    }
+    100% {        
+        opacity: 100%;  
+        font-size: 400%;  
+    }
+  }
+
+  @keyframes mode0ContainerAnimation {
+    0% {
+        opacity: 30%; 
+        left: -100%;     
+    }
+    100% {        
+        opacity: 100%;  
+    }
+  }
+
+  @keyframes mode1ContainerAnimation {
+    0% {
+        opacity: 30%; 
+        left: 100%;        
+    }
+    100% {        
+        opacity: 100%;  
+    }
+  }

@@ -1,0 +1,247 @@
+.container {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #dfdfdf;
+    box-shadow: 20px 4px 8px 3px rgb(53 96 152 / 15%);
+}
+  
+.titleAndDescriptionContainer {
+    flex: 1 1 100%;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+  
+.titleContainer {
+    flex: 1 1 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;    
+}
+
+.title {
+    font-size: 455%;
+    font-weight: 300;
+    font-family: system-ui;
+    position: relative;
+    top: -32%;
+    left: 1%;
+  }
+
+        .title::after {
+            content: ''; /* Required for pseudo-elements */
+            position: absolute; /* Position the underline absolutely */
+            left: 0; /* Start from the left */
+            bottom: -2px; /* Position below the text */
+            width: 0; /* Start with zero width */
+            height: 2px; /* Set the height of the underline */
+            background-color: #eb986c; /* Set the color of the underline */
+            transition: width 0.5s ease; /* Transition width for smooth animation */
+        }
+
+        .title:hover::after {
+            animation: underlineAnimation 0.5s ease forwards; /* Apply the underline animation */ 
+        }
+
+.descriptionContainer {
+    flex: 1 1 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;        
+}
+
+.description {
+    font-size: 100%;
+    font-family: system-ui;    
+    color: #818181;
+}
+
+.spawnContainer {
+    flex: 0 0 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.trianglesContainer {
+    flex: 1 1 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden; 
+}
+
+.triangleContainer0 {
+    width: 123%;
+    height: 110%;
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    cursor: pointer;
+    transform: rotate(269deg);
+}
+
+.previewContainer0 {
+    width: 100%;
+    height: 100%;        
+}
+
+.previewContent0 {
+    width: 100%;
+    height: 100%;
+}
+.previewContent0_noHover {
+    width: 100%;
+    height: 100%;  
+    opacity: 30%;
+    filter: blur(1px);
+    animation: spawnAnimation 5s ease-in-out forwards;
+}
+
+.trianglesContainer12 {
+    width: 31vw;
+    height: 108%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 17.5vw;
+    transform: rotate(4deg);    
+}
+
+.triangleContainer1 {
+    width: 338%;
+    height: 45%;
+    position: absolute;
+    top: 49%;
+    left: -48%;
+    cursor: pointer;
+    transform: rotate(356deg);
+}
+
+.previewContainer1 {
+    width: 100%;
+    height: 100%;        
+}
+
+.previewContent1 {
+    width: 100%;
+    height: 100%;
+}
+.previewContent1_noHover {
+    width: 100%;
+    height: 100%;  
+    opacity: 30%;
+    filter: blur(1px);
+    animation: spawnAnimation 5s ease-in-out forwards;
+}
+
+
+
+.triangleContainer2 {
+    width: 310%;
+    height: 38%;
+    position: absolute;
+    top: 0%;
+    left: -58%;
+    cursor: pointer;
+    transform: rotate(356deg);
+}
+
+.previewContainer2 {
+    width: 100%;
+    height: 100%;        
+}
+
+.previewContent2 {
+    width: 100%;
+    height: 100%;
+}
+.previewContent2_noHover {
+    width: 100%;
+    height: 100%;  
+    opacity: 30%;
+    filter: blur(1px);
+    animation: spawnAnimation 5s ease-in-out forwards;
+}
+
+.triangleContainer3 {
+    width: 78%;
+    height: 56%;
+    position: absolute;
+    top: 20%;
+    right: -14.5%;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+.previewContainer3 {
+    width: 100%;
+    height: 100%;        
+}
+
+.previewContent3 {
+    width: 100%;
+    height: 100%;
+}
+.previewContent3_noHover {
+    width: 100%;
+    height: 100%;  
+    opacity: 30%;
+    filter: blur(1px);
+    animation: spawnAnimation 5s ease-in-out forwards;
+}
+  
+
+/* [ANIMATIONS] */
+@keyframes underlineAnimation {
+    0% {
+        width: 0;
+        left: 0;
+      }
+    100% {
+        width: 100%;
+        left: 0;
+      }
+  }
+
+  @keyframes spawnAnimation {
+    0% {
+        opacity: 100%;
+        filter: blur(0px);
+      }
+    100% {
+        opacity: 30%;
+        filter: blur(1px);
+      }
+  }

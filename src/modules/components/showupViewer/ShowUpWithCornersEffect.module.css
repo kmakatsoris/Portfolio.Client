@@ -1,0 +1,88 @@
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .topRight,
+  .bottomLeft {
+    position: absolute;
+    width: 50px;
+    height: 50px;        
+  }
+  
+  .topRight {
+    top: 0;
+    right: 0;
+    animation: topRightAnimation 2s ease-in-out; /* Add animation */
+  }
+  
+  .bottomLeft {
+    bottom: 0;
+    left: 0;
+    animation: bottomLeftAnimation 2s ease-in-out; /* Add animation */
+  }
+
+  .contentContainer {    
+    position: absolute;
+    bottom: 36%;
+    left: 36%;
+    width: 100px;
+    height: 100px;
+    animation: contentContainerAnimation 2.5s ease-in-out; /* Add animation */
+  }
+
+  .cornerImgTopRight {
+    width: 50px;
+    transform: rotate(133deg);
+  }
+  
+  .cornerImgBottomLeft {
+    width: 50px;
+    transform: rotate(313deg);
+  }
+
+  /* Animations */  
+  @keyframes contentContainerAnimation {
+    0% {
+        opacity: 50%;
+        filter: blur(5px);
+    }
+    50% {
+      opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+  }
+  
+  @keyframes topRightAnimation {
+    0% {
+      top: 0;
+      right: 0;
+    }
+    50% {
+      top: 38%;
+      right: 38%;
+    }
+    100% {
+      top: 0;
+      right: 0;
+    }
+  }
+  
+  @keyframes bottomLeftAnimation {
+    0% {
+      bottom: 0;
+      left: 0;
+    }
+    50% {
+      bottom: 38%;
+      left: 38%;
+    }
+    100% {
+      bottom: 0;
+      left: 0;
+    }
+  }
+

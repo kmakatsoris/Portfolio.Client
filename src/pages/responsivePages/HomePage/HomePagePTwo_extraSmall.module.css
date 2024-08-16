@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Main Container Css Styles */
+.mainContainer {
+  width: 100%;
+  height: 100%;
+  flex: 1 1 40%;
+  margin: 1.5% 5% 0px 2%;
+}
+
+.mainContainerContentGraphicPre {
+  width: 100%;
+  height: 100%;
+}
+
+.mainContentContainer {
+  font-size: 96%;
+  color: #5b5b5b;
+  font-family: system-ui;
+}
+
+
+/* Sub Containers Css Styles */
+.subContainersContainer {
+  flex: 1 1 50%;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.subContainerSection {
+  width: 75%;
+  height: 75%;
+}
+
+.metaDataViewerSchedulerContainer {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}

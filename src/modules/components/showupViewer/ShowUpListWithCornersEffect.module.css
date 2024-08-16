@@ -1,0 +1,11 @@
+.container {
+    margin: 15% 0% 0% 15%;
+}
+
+.contentImage {
+    position: absolute;
+    max-width: 300px;
+    left: -86%;
+    top: -108%;
+    border-radius: 5%;
+}

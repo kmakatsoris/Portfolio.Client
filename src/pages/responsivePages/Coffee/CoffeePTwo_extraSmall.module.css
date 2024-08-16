@@ -1,0 +1,113 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+}
+  
+  .backgroundImg {
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    filter: blur(3px);
+  }
+
+  .titleContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -90%;
+  }
+
+  .descriptionValueContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .descriptionValue0 {
+    width: 100%;
+    font-size: 100%;
+    font-family: system-ui;
+    color: #000000;
+    margin: 0px 0px 4% 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .descriptionValue1Container {
+    width: 208px;
+    height: 15%;
+  }
+  .descriptionValue1 {
+    font-family: system-ui;
+    color: rgb(235, 152, 108);
+    font-weight: 900;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid; 
+    width: 0;
+    animation: typing 3.5s steps(40, end) forwards, blink-caret 0.75s step-end infinite; 
+  }
+  .descriptionValue2 {
+    width: 100%;
+    font-size: 100%;
+    font-family: system-ui;
+    color: #000000;
+    margin: 0px 0px 4% 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .descriptionValue3 {
+    width: 100%;
+    font-size: 100%;
+    font-weight: 600;
+    font-family: system-ui;
+    color: #000000;
+    margin: 0px 0px 4% 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .btnsContainer {    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10% 0px 0px 0px;
+  }
+  
+.btn1Container {
+    cursor: pointer;
+    color: #7794bb;
+}
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: rgb(255, 255, 255); }
+}

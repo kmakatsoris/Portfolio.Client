@@ -1,0 +1,161 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+}
+
+.welcomeContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0px 0px 0px;
+  position: relative;
+  flex-wrap: nowrap;
+}
+
+.welcomeMessage {
+  width: 90%;
+  height: 100%;
+}
+
+.welcomeMessageValue {
+  font-size: 135%;
+  font-family: system-ui;
+  color: #bdbdbd;
+}
+
+.subContainer {
+  flex: 0 0 90%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.backgroundImgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.backgroundImgSubContainer {
+  width: 70%;
+  height: 94%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.backgroundImgValueContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.backgroundImg {
+  width: 70%;
+  height: 80vh;
+  border-radius: 2%;
+}
+
+.titleContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.descriptionValueContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionValue0 {
+  font-size: 75%;
+  font-family: system-ui;
+  color: #000000;
+  margin: 0px 0px 2% 0%;
+}
+.descriptionValue1 {  
+  font-size: 75%;
+    font-family: system-ui;
+    color: #000000;
+    margin: -2px 0px -5% 0%;
+}
+.descriptionValue2 {
+  font-size: 75%;
+  font-family: system-ui;
+  color: #000000;
+  margin: 4px 0px 12% 0%;
+}
+
+.descriptionValueStyles {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 0px 3% 0px;
+}
+.descriptionValueStyle1 {
+  cursor: pointer;
+  color: #7794bb;
+  font-weight: bolder;
+  margin: 0px 0px 0px 10%;
+}
+.descriptionValueStyle2 {
+  cursor: pointer;
+  color: #eb986c;
+  font-weight: bolder;
+  margin: 0px 10% 0px 0px;
+}
+
+.btnsContainer {    
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 18% 0px 0px -31px;
+}
+
+.btn1Container {
+  cursor: pointer;
+  color: #7794bb;
+}
+
+.btn2Container {
+  cursor: pointer;
+  color: #eb986c;
+}

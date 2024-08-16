@@ -1,0 +1,91 @@
+.profileContainer {
+    flex: 1 1 15%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 5% 0px 0px;
+  }
+  
+  .sectionContainer {
+    margin: 1% 0px 1% 0px;
+    font-weight: bold;
+    font-family: system-ui;
+    font-size: 140%;
+  }
+  
+  .profileTitle, .experienceTitle0, .educationTitle0, .educationTitle1, .educationTitle2, .volunteeringTitle0, .volunteeringTitle1, .contactTitleContainer0, .langTitleContainer0 {
+    font-size: 80%;
+    font-weight: bold;    
+    font-family: system-ui;
+    margin: 0px 0px 1% 0px;    
+  }
+  
+  .profileText, .experienceText, .educationText, .contactTitleContainer1, .langTitleContainer1 {
+    margin-bottom: 1%;
+    font-size: 80%;    
+    font-family: system-ui;
+    word-wrap: break-word;
+  }
+
+  .contactTitleContainer1 {
+    text-decoration: underline;
+  }
+  
+  .experiencesContainer, .educationsContainer, .programmingSkillsContainer, .volunteeringContainer, .contactsContainer, .langsContainer {    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 5% 0px 0px;
+    font-family: system-ui;
+  }
+  .experiencesContainer {
+    flex: 1 1 30%;
+  }
+  
+  .experienceContainer, .educationContainer, .programmingSkillContainer, .contactContainer, .langContainer {
+    width: 100%;
+    margin: 0px 0px 2% 0px;
+  }
+  
+  .experienceTitle1and2, .educationTitle3and4, .educationTitle12, .volunteerContainer {
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui;
+    width: 100%;
+  }
+  
+  .experienceTitle1, .educationTitle3, .volunteeringTitle0 {
+    flex: 1 1 50%;
+    font-size: 80%;
+    font-weight: bold;
+    margin: 0px 0px 1% 0px;
+    font-family: system-ui;
+  }
+  
+  .experienceTitle2, .educationTitle4, .volunteeringTitle1 {
+    font-weight: bold;
+    text-align: right;    
+    font-size: 80%;
+    font-family: system-ui;
+  }
+  
+  .programmingSkillTitle {
+    font-weight: 300;
+    text-decoration: underline;
+    font-family: system-ui;
+  }
+
+  .programmingSkillText {    
+    font-size: 90%;    
+    font-family: system-ui;
+  }

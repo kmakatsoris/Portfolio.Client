@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.contentContainer {
+  text-align: center;
+  position: absolute;
+  top: 3%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.contentStageContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.introductionContainer {
+  width: 100%;
+  height: 100%;
+}
+
+
+.titleContainer {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.lineHorizontal {
+  width: 60%;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+.textContainer {
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 26px;
+  color: #5b5b5b;
+  font-family: system-ui;
+}
+
+/* Graphic Container */
+.graphicContainerOnTop {
+  border-radius: 10px;
+  object-fit: cover;
+  opacity: 50%;
+  filter: blur(3px);
+  animation: renderingAnimation 5s ease-in-out;
+}
+
+.graphicContainerOnBackground {
+  border-radius: 10px;
+  object-fit: cover;
+  opacity: 0.5;
+  filter: blur(3px);
+}
+
+
+/* Animation Section */
+@keyframes renderingAnimation {
+  0% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 50%;
+  }
+}
